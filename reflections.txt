@@ -1,0 +1,15 @@
+Some version control systems allow for saving multiple files to be committed. The advantage of saving multiple files are that a multi file project can be maintain and updated with a new change that affects different files, a single change can be implemented across all project files, such as a name change and that a history of changes can track. This tracking allows the different version to be branched so that a team can collaborate on a project without overlapping or destroying anyones work. In contrast google doc simply has one separate task that is updated by a single user.
+
+Git log and git diff.
+
+The command ‘git log’ provides a list of all previous commits. It gives a the time, user and the comment about the change. This list is index with a very long alpha numeric key. Fortunately just the first few unique characters can be used. The to copy press ‘command + c’ and ‘command + v’ to paste.
+
+Git diff is used to see the difference between commits. Type ‘git diff’ and then copy and paste the index keys. The changes will be shown for comparison. Lines starting with a + and highlighted in green are changes added and line preceded with - and in red are deletions. 
+
+Confidence from version control.
+
+If you know that your new changes can be easier traced back and that the existing information will not be altered, you can be more confident is making those changes.
+
+Getting git set up.
+
+The editor can be open in bash. 

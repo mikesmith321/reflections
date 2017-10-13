@@ -1,0 +1,41 @@
+*What happens when you initialise a repository? Why do you need to do it?
+
+When you initialise a repository and .git file is copied into your file location and provides the code to track changes and make the git tool work.
+
+*How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is a “half way house” between a working directory and the repository. It gives you a chance to put files on probation before finally committing them to the repository where they will be harder to edit. It allows you to clear the working area.
+
+
+*How can you use the staging area to make sure you have one commit per logical
+change?
+
+Clear the staging area after each commit.
+
+*What are some situations when branches would be helpful in keeping your history
+organised? How would branches help?
+
+When you are collaborating in a team and you don’t want to risk disturbing key information on the master file.
+
+
+*How do the diagrams help you visualise the branch structure?
+
+A visualise representation shows which commands act on which files and where the different  file versions are located
+
+
+*What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Each branches’ updates are carried into the new file except where conflicting changes have been made. 
+
+*What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+pros = you don’t forget to do them
+
+cons = unwanted information may be incorporated into the latest file
+
+
+
+
