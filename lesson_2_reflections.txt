@@ -36,6 +36,9 @@ pros = you don’t forget to do them
 
 cons = unwanted information may be incorporated into the latest file
 
+*How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+You can’t make changes or work in the staging area, but it offers value by allowing flexibility for which files to commit together. This grouping can represent logical changes that are made at certain stages of a project.
 
 
 
